@@ -15,11 +15,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+  <!-- App JavaScript -->
+  <script src="js/script.js"></script>
 </head>
 
 <body>
-
   <!-- This is the code for the navigation bar  -->
   <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -34,18 +34,27 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
+                <li id="menu-home" onclick="changePage('home')" class="active"><a href="#">Home</a></li>
+                <li id="menu-1" onclick="changePage('1')"><a href="#">Page 1</a></li>
+                <li id="menu-2" onclick="changePage('2')"><a href="#">Page 2</a></li>
+                <li id="menu-3" onclick="changePage('3')"><a href="#">Page 3</a></li>
               </ul>
             </div>
           </div>
         </nav>
 
-				<section>
-					<!-- This is where you should put all your app content -->
+        <!-- This is where you should put all your app content -->
+				<section id="page-home">
+					<h1>Home</h1>
+        </section>
+        <section id="page-1">
+					<h1>Page 1</h1>
+        </section>
+        <section id="page-2">
+					<h1>Page 2</h1>
+        </section>
+        <section id="page-3">
+					<h1>Page 3</h1>
 				</section>
-
 </body>
 </html>

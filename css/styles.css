@@ -1,10 +1,10 @@
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border: 0;
 }
-.navbar-header{
+.navbar-header {
   background-color: #ad2740;
   height: 60px;
 }
@@ -17,14 +17,19 @@
 .navbar-default {
     background-color: #ad2740;
     border-color: #90034F;
+    margin-bottom: 0px;
 }
-.navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:hover {
   background-color: #881f32;
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
-.logo{
+.logo {
   height: 25px;
   width: auto;
+}
+h1 {
+  margin: 10px;
+  padding: 0;
 }
